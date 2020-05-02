@@ -31,5 +31,5 @@ function commit() {
 }
 
 function reset() {
-	git reset
+	git reset --mixed HEAD
 }
