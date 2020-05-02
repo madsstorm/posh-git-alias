@@ -33,3 +33,11 @@ function commit() {
 function reset() {
 	git reset --mixed HEAD
 }
+
+function stash() {
+	git stash --include-untracked
+}
+
+function pop() {
+	git stash pop
+}
