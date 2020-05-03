@@ -6,6 +6,10 @@ function b() {
 	git --no-pager branch
 }
 
+function l() {
+	git --no-pager log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)[%an]%Creset' --graph -100
+}
+
 function a() {
 	git add .
 }
@@ -18,7 +22,7 @@ function dc() {
 	git difftool --cached
 }
 
-function mt() {
+function m() {
 	git mergetool
 }
 
@@ -44,8 +48,4 @@ function stash() {
 
 function pop() {
 	git stash pop
-}
-
-function log() {
-	git --no-pager log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)[%an]%Creset' --graph -100
 }
