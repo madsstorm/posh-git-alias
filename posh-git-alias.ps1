@@ -3,7 +3,7 @@ function s() {
 }
 
 function b() {
-	git branch
+	git --no-pager branch
 }
 
 function a() {
