@@ -27,7 +27,7 @@ function add() {
 }
 
 function commit() {
-	git commit -m $args[0]
+	git commit -m $args
 }
 
 function reset() {
