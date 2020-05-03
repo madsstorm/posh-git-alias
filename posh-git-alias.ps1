@@ -18,6 +18,10 @@ function dc() {
 	git difftool --cached
 }
 
+function mt() {
+	git mergetool
+}
+
 function push() {
 	git push
 }
