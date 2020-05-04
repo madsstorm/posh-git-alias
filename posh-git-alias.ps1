@@ -7,7 +7,7 @@ function b() {
 }
 
 function l() {
-	git --no-pager log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)[%an]%Creset' --graph -100
+	git --no-pager log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)[%an]%Creset' --graph -10
 }
 
 function d() {
