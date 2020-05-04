@@ -34,6 +34,10 @@ function reset() {
 	git reset --mixed HEAD
 }
 
+function clean() {
+	git clean -f -d
+}
+
 function push() {
 	git push
 }
